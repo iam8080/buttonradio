@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/bg_selector"
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/ic_male"
+            android:drawableTint="@color/color_selector"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:paddingEnd="2dp"
+            android:paddingBottom="10dp"
+            android:text="Male"
+            android:textColor="@color/color_selector"
+            android:textSize="28sp" />
+
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_selector"
+
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/ic_female"
+            android:drawableTint="@color/color_selector"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Female"
+            android:textColor="@color/color_selector"
+            android:textSize="30sp" />
+    </RadioGroup>
+</RelativeLayout>
